@@ -13,51 +13,51 @@ import './css/profile.css'
 
 class Profile extends Component {
 
-    constructor(props) {
-        super(props)
-    }
+    // constructor(props) {
+    //     super(props)
+    // }
 
     render() {
         return (
             <div className='profileContainer'>
 
                 <div className='profileImageContainer'>
-                    <img src={ProfilePicture} />
+                    <img src={ProfilePicture} alt='Profile'/>
                 </div>
 
                 <div className='profileNameContainer'>
-                    <img src={ProfileName} />
+                    <img src={ProfileName} alt='Name'/>
                 </div>
 
                 <div className='profileRoleContainer'>
-                    <img src={ProfileRole} />
+                    <img src={ProfileRole} alt='Role' />
                 </div>
 
                 <div className='profileIconsContainer'>
                     <div className='profileIconsRow'>
                         <div className='profileIconsItem'>
-                            <a href='https://www.instagram.com/look.ab/'><img src={Instagram} /></a>
+                            <a href='https://www.instagram.com/look.ab/'><img src={Instagram} alt='Instagram'/></a>
                             <a href='https://www.instagram.com/look.ab/'>look.ab</a>
                         </div>
                         <div className='profileIconsItem'>
-                            <a href='https://www.behance.net/lucabiglieri1'><img src={Behance} /></a>
+                            <a href='https://www.behance.net/lucabiglieri1'><img src={Behance} alt='Behance'/></a>
                             <a href='https://www.behance.net/lucabiglieri1'>lucabiglieri1</a>
                         </div>
                     </div>
                     <div className='profileIconsRow'>
                         <div className='profileIconsItem'>
-                            <a href='mailto:biglieriluca@gmail.com'><img src={Gmail} /></a>
+                            <a href='mailto:biglieriluca@gmail.com'><img src={Gmail} alt='Gmail'/></a>
                             <a href='mailto:biglieriluca@gmail.com'>biglieriluca@gmail.com</a>
                         </div>
                         <div className='profileIconsItem'>
-                            <a href='https://it.linkedin.com/in/luca-biglieri-92632b1a5?trk=people-guest_people_search-card'><img src={Linkedin} /></a>
+                            <a href='https://it.linkedin.com/in/luca-biglieri-92632b1a5?trk=people-guest_people_search-card'><img src={Linkedin} alt='Linkedin'/></a>
                             <a href='https://it.linkedin.com/in/luca-biglieri-92632b1a5?trk=people-guest_people_search-card'>Luca Biglieri</a>
                         </div>
                     </div>
                 </div>
 
                 <div className='profileFooterContainer'>
-                    <img src={Footer} />
+                    <img src={Footer} alt='Footer'/>
                 </div>
 
             </div>
