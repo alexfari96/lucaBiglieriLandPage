@@ -36,22 +36,22 @@ class Profile extends Component {
                 <div className='profileIconsContainer'>
                     <div className='profileIconsRow'>
                         <div className='profileIconsItem'>
-                            <a href=''><img src={Instagram} /></a>
-                            <a href=''>look.ab</a>
+                            <a href='https://www.instagram.com/look.ab/'><img src={Instagram} /></a>
+                            <a href='https://www.instagram.com/look.ab/'>look.ab</a>
                         </div>
                         <div className='profileIconsItem'>
-                            <a href=''><img src={Behance} /></a>
-                            <a href=''>lucabiglieri1</a>
+                            <a href='https://www.behance.net/lucabiglieri1'><img src={Behance} /></a>
+                            <a href='https://www.behance.net/lucabiglieri1'>lucabiglieri1</a>
                         </div>
                     </div>
                     <div className='profileIconsRow'>
                         <div className='profileIconsItem'>
-                            <a href=''><img src={Gmail} /></a>
-                            <a href=''>biglieriluca@gmail.com</a>
+                            <a href='mailto:biglieriluca@gmail.com'><img src={Gmail} /></a>
+                            <a href='mailto:biglieriluca@gmail.com'>biglieriluca@gmail.com</a>
                         </div>
                         <div className='profileIconsItem'>
-                            <a href=''><img src={Linkedin} /></a>
-                            <a href=''>Luca Biglieri</a>
+                            <a href='https://it.linkedin.com/in/luca-biglieri-92632b1a5?trk=people-guest_people_search-card'><img src={Linkedin} /></a>
+                            <a href='https://it.linkedin.com/in/luca-biglieri-92632b1a5?trk=people-guest_people_search-card'>Luca Biglieri</a>
                         </div>
                     </div>
                 </div>

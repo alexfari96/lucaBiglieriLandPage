@@ -86,3 +86,22 @@
     display: flex;
     width: 100%;
 }
+
+/* Galaxy Fold to Iphone 5/SE excluse*/
+@media all and (max-width: 280px) { 
+
+    .profileImageContainer img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profileIconsContainer img {
+        width: 45px;
+    }
+
+    .profileIconsItem a {
+        text-decoration: none;
+        color: #FBFBFF;
+        font-size: small;
+    }
+}
