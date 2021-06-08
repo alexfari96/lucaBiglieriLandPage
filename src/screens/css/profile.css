@@ -1,6 +1,88 @@
 .profileContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100vw;
     height: 100vh;
+    background-image: url('../../assets/images/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Profile Image */
+.profileImageContainer {
+    display: flex;
+    margin-top: 24px;
+}
+
+.profileImageContainer img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Profile Name */
+.profileNameContainer {
+    display: flex;
+    margin-top: 24px;
+}
+
+.profileNameContainer img {
+    width: 200px;
+}
+
+/* Profile Role */
+.profileRoleContainer {
+    display: flex;
+    margin-top: 24px;
+}
+
+.profileRoleContainer img {
+    width: 200px;
+}
+
+/* Profile Icons  */
+.profileIconsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.profileIconsRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 14px;
+}
+
+.profileIconsItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.profileIconsItem a {
+    text-decoration: none;
+    color: #FBFBFF;
+
+}
+
+.profileIconsContainer img {
+    width: 60px;
+}
+
+/* Profile Footer */
+.profileFooterContainer {
+    display: flex;
+    width: 100%;
+    margin-top: 64px;
+}
+
+.profileFooterContainer img {
+    display: flex;
+    width: 100%;
 }
